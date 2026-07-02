@@ -1,0 +1,10 @@
+/* TaskDock Extension Styles */
+
+/* Panel button styling */
+.taskdock-button {
+    padding: 0 8px;
+}
+
+.taskdock-icon {
+    icon-size: 16px;
+}

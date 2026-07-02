@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#4f8fee">
+    <title>TaskDock</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/themes.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/tasks.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+
+<body>
+    <div id="td-root" class="td-root">
+        <header class="td-header">
+            <div class="td-title-group">
+                <h1 class="td-title">TaskDock</h1>
+                <span class="td-version">v1.0.0</span>
+            </div>
+        </header>
+
+        <main class="td-main">
+            <div class="td-new-task-wrapper">
+                <input id="td-new-task" class="td-new-task" type="text" placeholder="Add a task and press Enter">
+            </div>
+
+            <div id="td-task-container" class="td-task-container"></div>
+        </main>
+
+        <footer class="td-footer">
+            <button id="td-add-task" class="td-button" type="button">+ Add Task</button>
+        </footer>
+    </div>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+
+</html>

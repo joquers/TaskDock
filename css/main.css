@@ -1,0 +1,54 @@
+:root {
+    color-scheme: light dark;
+
+    --window-width: 100%;
+    --window-min-height: 100%;
+    --window-radius: 0;
+
+    --spacing-xs: 6px;
+    --spacing-sm: 10px;
+    --spacing-md: 14px;
+    --spacing-lg: 18px;
+    --spacing-xl: 22px;
+
+    --font-family: Cantarell, "Noto Sans", sans-serif;
+    --font-small: 13px;
+    --font-normal: 14px;
+    --font-title: 17px;
+
+    --transition-fast: 0.18s ease;
+    --transition-normal: 0.28s ease;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: var(--font-family);
+    background: transparent;
+    color: var(--color-text);
+    overflow: hidden;
+}
+
+button,
+input {
+    font: inherit;
+}
+
+.td-root {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0;
+    border-radius: 0;
+    background: var(--color-window-bg);
+    overflow: hidden;
+}

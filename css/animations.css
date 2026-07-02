@@ -1,0 +1,9 @@
+ .td-task {
+    transform: translateZ(0);
+}
+
+.td-task,
+.td-button,
+.td-task-remove {
+    transition: background var(--transition-fast), transform var(--transition-fast), color var(--transition-fast);
+}

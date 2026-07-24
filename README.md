@@ -23,14 +23,14 @@ TaskDock is a lightweight, native GNOME Shell task list. It adds a checklist ico
 * Persist tasks locally as JSON
 * Display the number of active tasks in the top panel
 
-Requirements
+## Requirements
 
 GNOME Shell 50
 
 The gnome-extensions command-line tool
 
 Only GNOME Shell 50 is declared until other versions have been tested.
-### Version 1.0
+### Version 1.0.1
 
 * Create tasks
 * Edit tasks inline

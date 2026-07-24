@@ -1,7 +1,7 @@
 {
+  "uuid": "taskdock@joquers.github.io",
   "name": "TaskDock",
   "description": "A lightweight task list in the GNOME Shell top panel.",
-  "uuid": "taskdock@joquers.github.io",
   "shell-version": ["50"],
   "url": "https://github.com/joquers/TaskDock",
   "version-name": "1.0.0"

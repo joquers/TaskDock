@@ -60,9 +60,9 @@ The project intentionally avoids heavy frameworks, unnecessary background servic
 
 ## Install
 
-chmod +x install.sh
-./install.sh
-gnome-extensions enable taskdock@joquers.github.io
+chmod +x install.sh  
+./install.sh  
+gnome-extensions enable taskdock@joquers.github.io  
 
 If GNOME Shell does not detect the new installation immediately, log out and back in.
 
@@ -100,7 +100,7 @@ TaskDock does not send task data anywhere and contains no telemetry.
 
 Uninstall
 
-gnome-extensions disable taskdock@joquers.github.io
+gnome-extensions disable taskdock@joquers.github.io  
 rm -rf ~/.local/share/gnome-shell/extensions/taskdock@joquers.github.io
 
 Deleting the extension does not delete the task data. To remove that too:

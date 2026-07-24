@@ -112,6 +112,14 @@ The first public release will focus on providing a solid, stable, and minimal de
 
 Contributions, feedback, and ideas are always welcome.
 
+## Support TaskDock
+
+If TaskDock is useful to you, you can support its development with a Bitcoin donation:
+
+Donate with Bitcoin
+
+bc1qmwgj2v7q3jzdtyfskqttephcdszc4qffluu42m
+
 ## License
 
 Copyright © 2026 Oswaldo J. Silva. TaskDock is licensed under GPL-3.0-or-later. See LICENSE

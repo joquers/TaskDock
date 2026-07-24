@@ -1,10 +1,8 @@
 {
   "name": "TaskDock",
-  "description": "A lightweight desktop task list widget for GNOME",
-  "uuid": "TaskDock@joquers.github.com",
-  "version": 1,
-  "shell-version": ["40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"],
-  "settings-schema": "org.gnome.shell.extensions.taskdock",
-  "url": "https://github.com/ozzie/TaskDock",
-  "type": "extension"
+  "description": "A lightweight task list in the GNOME Shell top panel.",
+  "uuid": "taskdock@joquers.github.io",
+  "shell-version": ["50"],
+  "url": "https://github.com/joquers/TaskDock",
+  "version-name": "1.0.0"
 }

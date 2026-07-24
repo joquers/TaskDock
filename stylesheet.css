@@ -1,3 +1,14 @@
+/* SPDX-License-Identifier: GPL-3.0-or-later */
+.taskdock-panel-count {
+    margin-left: 4px;
+    font-size: 0.85em;
+    font-weight: 700;
+}
+
+.taskdock-menu-item {
+    padding: 0;
+}
+
 .taskdock-root {
     min-width: 430px;
     max-width: 500px;
@@ -5,7 +16,122 @@
     spacing: 12px;
 }
 
+.taskdock-header,
+.taskdock-input-row,
+.taskdock-footer,
+.taskdock-task-row {
+    spacing: 8px;
+}
+
+.taskdock-title {
+    font-size: 1.15em;
+    font-weight: 700;
+}
+
+.taskdock-task-count,
+.taskdock-status,
+.taskdock-empty-state {
+    opacity: 0.7;
+}
+
+.taskdock-entry {
+    padding: 8px 10px;
+    border-radius: 8px;
+}
+
+.taskdock-add-button,
+.taskdock-link-button,
+.taskdock-icon-button {
+    border-radius: 8px;
+}
+
+.taskdock-add-button {
+    padding: 7px 14px;
+    font-weight: 600;
+}
+
 .taskdock-scroll-view {
     min-height: 110px;
     max-height: 420px;
+}
+
+.taskdock-task-list {
+    spacing: 6px;
+}
+
+.taskdock-task-row {
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.12);
+}
+
+.taskdock-task-row:hover {
+    background-color: rgba(128, 128, 128, 0.18);
+}
+
+.taskdock-task-row-completed {
+    opacity: 0.62;
+}
+
+.taskdock-task-label {
+    padding: 2px 4px;
+}
+
+.taskdock-icon-button {
+    padding: 5px;
+}
+
+.taskdock-icon-button:hover,
+.taskdock-icon-button:focus,
+.taskdock-link-button:hover,
+.taskdock-link-button:focus,
+.taskdock-add-button:hover,
+.taskdock-add-button:focus {
+    background-color: rgba(128, 128, 128, 0.18);
+}
+
+.taskdock-icon-button:insensitive {
+    opacity: 0.3;
+}
+
+.taskdock-delete-button:hover,
+.taskdock-delete-button:focus {
+    color: #e01b24;
+}
+
+.taskdock-toggle-symbol {
+    font-size: 1.15em;
+    font-weight: 700;
+}
+
+.taskdock-empty-state {
+    padding: 28px 12px;
+}
+
+.taskdock-footer {
+    padding-top: 2px;
+}
+
+.taskdock-link-button {
+    padding: 4px 8px;
+    font-size: 0.9em;
+}
+
+.taskdock-status-error {
+    color: #e01b24;
+    opacity: 1;
+}
+
+.taskdock-edit-dialog-content {
+    min-width: 420px;
+    spacing: 12px;
+}
+
+.taskdock-edit-dialog-title {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.taskdock-edit-entry {
+    min-width: 400px;
 }

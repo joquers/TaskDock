@@ -1,5 +1,7 @@
 # TaskDock
 
+![TaskDock task manager screenshot](assets/screenshot.png)
+
 TaskDock is a lightweight, native GNOME Shell task list. It adds a checklist icon to the top panel and opens a task menu without GTK, WebKit, HTML, or external runtime dependencies.
 
 ## Goals

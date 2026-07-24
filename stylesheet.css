@@ -1,10 +1,11 @@
-/* TaskDock Extension Styles */
-
-/* Panel button styling */
-.taskdock-button {
-    padding: 0 8px;
+.taskdock-root {
+    min-width: 430px;
+    max-width: 500px;
+    padding: 14px;
+    spacing: 12px;
 }
 
-.taskdock-icon {
-    icon-size: 16px;
+.taskdock-scroll-view {
+    min-height: 110px;
+    max-height: 420px;
 }

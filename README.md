@@ -60,9 +60,11 @@ The project intentionally avoids heavy frameworks, unnecessary background servic
 
 ## Install
 
-chmod +x install.sh  
-./install.sh  
-gnome-extensions enable taskdock@joquers.github.io  
+  ```bash
+  chmod +x install.sh  
+  ./install.sh  
+  gnome-extensions enable taskdock@joquers.github.io  
+  ```
 
 If GNOME Shell does not detect the new installation immediately, log out and back in.
 
@@ -70,25 +72,33 @@ If GNOME Shell does not detect the new installation immediately, log out and bac
 
 GNOME 50 uses Wayland. Start a nested Shell session:
 
-dbus-run-session gnome-shell --devkit --wayland
+  ```bash
+  dbus-run-session gnome-shell --devkit --wayland
+  ```
 
 Open a terminal inside the nested session and enable TaskDock:
 
-gnome-extensions enable taskdock@joquers.github.io
+  ```bash
+  gnome-extensions enable taskdock@joquers.github.io
+  ```
 
 Watch GNOME Shell logs from the host session:
 
-journalctl -f -o cat /usr/bin/gnome-shell
+  ```bash
+  journalctl -f -o cat /usr/bin/gnome-shell
+  ```
 
 Package manually
 
-mkdir -p dist
-gnome-extensions pack \
+  ```bash
+  mkdir -p dist
+  gnome-extensions pack \
   --force \
   --out-dir=dist \
   --extra-source=taskStore.js \
   --extra-source=taskDialog.js \
   .
+  ```
 
 Data storage
 
@@ -100,12 +110,16 @@ TaskDock does not send task data anywhere and contains no telemetry.
 
 Uninstall
 
-gnome-extensions disable taskdock@joquers.github.io  
-rm -rf ~/.local/share/gnome-shell/extensions/taskdock@joquers.github.io
+  ```bash
+  gnome-extensions disable taskdock@joquers.github.io  
+  rm -rf ~/.local/share/gnome-shell/extensions/taskdock@joquers.github.io
+  ```
 
 Deleting the extension does not delete the task data. To remove that too:
 
-rm -rf ~/.local/share/taskdock
+  ```bash
+  rm -rf ~/.local/share/taskdock
+  ```
 
 ## Project Status
 
